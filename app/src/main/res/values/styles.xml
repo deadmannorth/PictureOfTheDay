@@ -1,10 +1,39 @@
 <resources>
+    <style name="title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/left_app_margin</item>
+        <item name="android:layout_marginTop">@dimen/top_app_margin</item>
+        <item name="android:layout_marginEnd">@dimen/right_app_margin</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="explanation_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/left_app_margin</item>
+        <item name="android:layout_marginTop">@dimen/top_app_margin</item>
+        <item name="android:layout_marginEnd">@dimen/right_app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_app_margin</item>
+        <item name="android:textSize">@dimen/explanation_text_size</item>
+    </style>
+
+    <style name="image_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/left_app_margin</item>
+        <item name="android:layout_marginTop">@dimen/top_app_margin</item>
+        <item name="android:layout_marginEnd">@dimen/right_app_margin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="settings_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/settings_margin</item>
     </style>
 </resources>

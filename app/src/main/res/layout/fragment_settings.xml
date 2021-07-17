@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?controlBackground"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/settings_style"
+        android:text="@string/select_theme"
+        android:textSize="@dimen/title_text_size" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        style="@style/settings_style"
+        android:textSize="@dimen/explanation_text_size"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/classic"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/classic_theme" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/mars"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mars_theme" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/lunar"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lunar_theme" />
+    </com.google.android.material.chip.ChipGroup>
+
+</LinearLayout>

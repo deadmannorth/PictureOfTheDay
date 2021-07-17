@@ -1,8 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.PictureOfTheDay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+
+    <style name="AppThemeClassic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primary_classic</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark_classic</item>
+        <item name="colorAccent">@color/fab_color_classic</item>
+        <item name="controlBackground">@color/background_sheets_classic</item>
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#757575</item>
+    </style>
+    <style name="MarsTheme" parent="AppThemeClassic">
+        <item name="colorPrimary">@color/color_primary_mars</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark_mars</item>
+        <item name="colorAccent">@color/fab_color_mars</item>
+        <item name="controlBackground">@color/background_sheets_mars</item>
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#757575</item>
+    </style>
+    <style name="LunarTheme" parent="AppThemeClassic">
+        <item name="colorPrimary">@color/color_primary_lunar</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark_lunar</item>
+        <item name="colorAccent">@color/fab_color_lunar</item>
+        <item name="controlBackground">@color/background_sheets_lunar</item>
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#757575</item>
     </style>
 </resources>
