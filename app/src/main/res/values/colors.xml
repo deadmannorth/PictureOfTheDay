@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="color_primary_classic">#008577</color>
+    <color name="color_primary_dark_classic">#00574B</color>
+    <color name="color_primary_lunar">#FFEB3B</color>
+    <color name="color_primary_dark_lunar">#FBC02D</color>
+    <color name="color_primary_mars">#FF5722</color>
+    <color name="color_primary_dark_mars">#E64A19</color>
+    <color name="fab_color_classic">#D81B60</color>
+    <color name="fab_color_lunar">#448AFF</color>
+    <color name="fab_color_mars">#009688</color>
     <color name="color_gray">#66000000</color>
+    <color name="bottom_sheet">#663b4351</color>
+    <color name="background_sheets_classic">#f6f6fa</color>
+    <color name="background_sheets_lunar">#FFF9C4</color>
+    <color name="background_sheets_mars">#FFCCBC</color>
+    <color name="background_sheets_dark">#212121</color>
 </resources>
